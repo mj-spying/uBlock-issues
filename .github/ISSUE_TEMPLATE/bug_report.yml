@@ -75,25 +75,11 @@ body:
 
   - type: textarea
     attributes:
-      label: Actual behavior
-      description: What happened?
+      label: Troubleshooting information
+      placeholder: |
+        Go to Support pane in uBO's dashboard, expand "Troubleshooting Information"
+        section, click "Select all", then copy/paste the content here.
+      render: text
     validations:
       required: true
 
-  - type: input
-    attributes:
-      label: uBO version
-    validations:
-      required: true
-
-  - type: input
-    attributes:
-      label: Browser name and version
-    validations:
-      required: true
-
-  - type: input
-    attributes:
-      label: Operating System and version
-    validations:
-      required: true
